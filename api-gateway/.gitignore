@@ -1,0 +1,8 @@
+# Dependency directories (specific to vendoring tools)
+vendor/
+
+# Go modules
+go.sum
+
+# IDE and Editor settings
+.vscode/
