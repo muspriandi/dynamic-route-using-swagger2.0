@@ -10,6 +10,7 @@ This project is an **API Gateway** implemented in Go. It dynamically loads route
 - Easy-to-extend architecture for adding new services.
 
 ## Project Structure
+```
 project/
 ├── domain/                        
 │   ├── config.go                  # Application-specific domain struct and configurations
@@ -25,7 +26,7 @@ project/
 ├── main.go                        # Entry point of the application
 ├── go.mod                         # Go module file, manages dependencies
 └── README.md                      # Documentation for the project
-
+```
 
 ## How It Works
 
