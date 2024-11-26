@@ -1,6 +1,6 @@
 # Dynamic Route API Gateway with Microservices
 
-This repository contains an API Gateway implemented in Go and two microservices (`member-service` and `order-service`) built with Node.js. The API Gateway dynamically loads routes from Swagger 2.0 specifications, forwarding requests to the appropriate microservices. Each service is modular, scalable, and designed for easy integration.
+This repository contains an API Gateway implemented in Go and two microservices (`member-service` and `order-service`) built with Node.js. The API Gateway dynamically loads routes from Swagger 2.0 specifications, forwarding requests to the appropriate microservices.
 
 ---
 
