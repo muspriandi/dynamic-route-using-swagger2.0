@@ -43,15 +43,15 @@ project-repo/
 
 1. **API Gateway**:
    - Dynamically loads Swagger 2.0 routes.
-   - Proxies requests to appropriate microservices.
-   - Supports easy addition of new services.
+   - Supports easy addition of new services. (Read more at [API-Gateway - readme.md](https://github.com/muspriandi/dynamic-route-using-swagger2.0/blob/main/api-gateway/readme.md))
 
-2. **Member Service**:
-   - CRUD operations for managing members.
+
+2. **Member Service**: (Read more at [Member-Service - readme.md](https://github.com/muspriandi/dynamic-route-using-swagger2.0/blob/main/member-service/readme.md))
+   - Simple endpoint.
    - Fully documented using Swagger 2.0.
 
 3. **Order Service**:
-   - Basic operations for managing orders.
+   - Simple endpoint.
    - Fully documented using Swagger 2.0.
 
 ---
@@ -134,7 +134,6 @@ cd dynamic-route-using-swagger2.0
 ---
 
 ## Adding a New Microservice
-
 1. Create a new service with its Swagger 2.0 specification.
 2. Add the Swagger file to the `api-gateway/swagger/` directory.
 3. Update the API Gateway to include the new service:
